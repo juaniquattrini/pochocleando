@@ -1,0 +1,161 @@
+
+#calendar {
+	width: 100%;
+  
+}
+
+#calendar ul {
+	list-style: none;
+	padding-left: 100px;
+	margin: 0;
+	width: 100%;
+  
+}
+
+#calendar li {
+	display: block;
+	float: left;
+	width:11.350%;
+	padding: 5px;
+	box-sizing:border-box;
+	border: 1px solid #ccc;
+	margin-right: -1px;
+	margin-bottom: -1px;
+  border: solid black;
+}
+
+#calendar ul.weekdays {
+	height: 40px;
+	background: #8e352e;
+}
+
+#calendar ul.weekdays li {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 20px;
+	border: none !important;
+	padding: 10px 6px;
+	color: #fff;
+	font-size: 13px;
+}
+
+#calendar .days li {
+	height: 200px;
+	
+}
+#calendar .day-movie1 {
+	background-image: url(../../media/hotel.jpg);
+	background-position:  30% 12%;
+
+}
+#calendar .day-movie2 {
+	background-image: url(../../media/dune2.webp);
+	background-position: center;
+
+}
+#calendar .day-movie3 {
+	background-image: url(../../media/007.jpg);
+	background-position: 70% 15%;
+
+}
+
+#calendar .day-movie4 {
+	background-image: url(../../media/halloween.jpg);
+	background-position: 25% 15%;
+
+}
+#calendar .day-movie5 {
+	background-image: url(../../media/eternals.jpg);
+	background-position: center;
+
+}
+#calendar .day-movie6 {
+	background-image: url(../../media/gb.jpg);
+	background-position: 42% 05%;
+
+}
+#calendar .day-movie7 {
+	background-image: url(../../media/topgun.jpg);
+	background-position: 49% 60%;
+
+}
+#calendar .day-movie8 {
+	background-image: url(../../media/encanto.jpg);
+	background-position: 49% 40%;
+
+}
+#calendar .day-movie9 {
+	background-image: url(../../media/gucci.jpg);
+	background-position: 0.1% 35%;
+
+}
+#calendar .day-movie10 {
+	background-image: url(../../media/rew.jpg);
+	background-position: 23% 35%;
+
+}
+#calendar .day-movie11 {
+	background-image: url(../../media/west.jpg);
+	background-position: 32% 24%;
+
+}
+#calendar .day-movie12 {
+	background-image: url(../../media/spider.jpg);
+	background-position: 52% 75%;
+
+}
+#calendar .day-movie13 {
+	background-image: url(../../media/matrix.jpg);
+	background-position: 50% 35%;
+
+}
+#calendar .day-movie14 {
+	background-image: url(../../media/kingsman.webp);
+	background-position: center;
+
+}
+#calendar .day-movie14 {
+	background-image: url(../../media/kingsman.webp);
+	background-position: center;
+
+}
+#calendar .day-movie-navidad {
+	background-image: url(./media/mandalorian-poster.jpg);
+	background-position: center;
+
+}
+	
+#calendar .day-none{
+	background-color: var(--calendar-color);
+	 }
+
+#calendar .days li:hover {
+	background: var(--secundary-color);
+}
+
+#calendar .event {
+	clear: both;
+	display: block;
+	font-size: 20px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	
+	background: #e4f2f2;
+	border: 1px solid #b5dbdc;
+	color: red;
+	text-decoration: none;
+	
+}
+
+#calendar .event-desc {
+	color: black;
+	font-weight: 400;
+	font-style: italic;
+	margin: 3px 0 7px 0;
+	text-decoration: none;	
+}
+
+
+

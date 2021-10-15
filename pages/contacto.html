@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;0,800;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script defer src="../js/app.js"></script>
+    <title>Contanos algo!</title>
+</head>
+<body>
+<header class="topheader">
+<nav class="topnav">
+          <a href="#" class="logo">
+            <img
+              height="50"
+              width="50"
+              src="../media/avatar.jpg"
+              alt="avatar-pochoclea2"
+            />
+            <div class="logotype">
+             <h1>Pochoclea2</h1>
+            </div>
+          </a>
+          <button class="open-menu" aria-label="Abrir menú"> Menu
+            <img src="../media/avatar.jpg" alt="abrir menú" height="50" width="50" />
+          </button>
+          <ul class="menu">
+            <button class="close-menu" aria-label="Cerrar menú">
+              <img src="../media/avatar.jpg" alt="cerrar menú" height="50" width="50" />
+            </button>
+            <li><a href="../pages/entretenimiento.html">Entretenimiento</a></li>
+            <li><a href="../pages/cronograma.html">Cronograma de Estrenos</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+          </ul>
+</nav>
+</header> 
+<section id="jumbo-1">
+            <div class="p-3 text-center bg-light">
+               <h2 class="mb-1">Un poco de nosotros!</h2>
+               <p class="pocho-text">En "Pochoclea2" queremos que veas el mundo por la fantastica lente del cine, asi mismo que nos cuentes que es lo que te hacer sentirte un pochoclero mas. Aca estamos para que nos conozcan.</p>
+            </div>
+</section>
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>      
+    </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../media/pocho4.png" width="100%" height="100%" alt="">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h2 class="header-carousel">🍿Asaca</h2>
+              <p>Fan del cine Japones y el anime. Su mood diario es ver peliculas romanticas de Bollywood. <br>"Deberias ir a la iglesia"</p> 
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+         <img src="../media/pocho2.png" width="100%" height="100%" alt="">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h2 class="header-carousel">🍿El famoso Pochoclin (Sin su casco)</h2>
+              <p>Likes: Cine Noire, el fútbol de los domingos, Taika Waititi.<br> Dislikes: Zack Snyder.<br>"Bro.."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="../media/pocho1.png" width="100%" height="100%" alt="">
+          <div class="container">
+            <div class="carousel-caption text-start ">
+              <h2 class="header-carousel">🍿John Edward</h2>
+              <p>"Soy un hombre simple, veo Zombies, clickeo." <br>Ve peliculas raras. <br><p style="text-decoration: line-through">"*Censurado*"</p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+</section>
+
+<section id="jumbo-1">
+    <div class="p-3 text-center bg-light">
+       <h2 class="mb-1">Y ahora un poco de ustedes</h2>
+       <p class="pocho-text">Contanos saber que te motiva a hacer una maraton del señor de los anillos, o ver las 9 peliculas de juego miedo, queremos saber por que amas al cine, asi podemos compartirlo en nuestro Podcast</p>
+    </div>
+</section>
+<section>
+<div class="form-container">  
+  <form id="contact" action="" method="post">
+    <h3>Contactanos si tenes algo para decirnos!</h3>
+    <h4>Esperamos tu mensaje</h4>
+    <fieldset>
+      <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Email" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Numero de telefono (Opcional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Algo que nos quieras decir?" tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit">Submit</button>
+    </fieldset>
+    <fieldset>
+        <button name="reset" type="reset" id="contact-reset">Borrar</button>
+      </fieldset>
+  </form>
+</div>
+</section>
+
+<footer>
+    Serb Dev.
+   <a href="#"><i class="fa fa-facebook"></i></a>
+   <a href="#"><i class="fa fa-twitter"></i></a>
+   <a href="#"><i class="fa fa-linkedin"></i></a>
+   <a href="#top"><i class="fa fa-home">Home</i></a>
+ </footer>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

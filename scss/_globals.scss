@@ -1,0 +1,49 @@
+:root {
+  --theme-color: #F2CAD5;
+  --primary-color: #821331;
+  --secundary-color: #67142A;
+  --text-color-inverse: white;
+  --text-color: black;
+  --navbar-shallow-color: #67142A;
+  --menu-mobile-background-color: #2F1313 ;
+  --calendar-color: #290710;
+  
+}
+  
+html  {
+    min-height:100%;
+    overflow-y:scroll;
+   }
+   
+
+body {
+  height: 100vh;
+  font-family: 'Karla', sans-serif;
+  font-weight: 200;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+ 
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+h1{
+  color: var(--primary-color);
+  font-weight: 800;
+  
+}
+h2{
+  color: var(--secundary-color);
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+hr{
+  border-top: 2px solid var(--secundary-color);
+  margin-right: 40px;
+  margin-left: 10px;
+}
+

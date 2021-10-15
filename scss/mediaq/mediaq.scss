@@ -1,0 +1,266 @@
+@media (max-width: 376px) { /*MENU CON JS*/
+    /* Menu */
+    .topheader{
+      margin-bottom: 3vw;
+    }
+    .menu {
+      flex-direction: column;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      align-items: center;
+      background-color: var(--menu-mobile-background-color);
+      height: 75%;
+      overflow-y: auto;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+    }
+  
+    .menu li {
+      padding: 0;
+    }
+  
+    .menu a {
+      color: var(--text-color-inverse);
+      line-height: 60px;
+    }
+  
+    .open-menu,
+    .close-menu {
+      display: block;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+  
+    .close-menu {
+      align-self: flex-end;
+      padding: 20px 15px;
+    }
+  
+    .menu_opened {
+      opacity: 1;
+      pointer-events: all;
+    }
+  
+    .open-menu:focus:not(:focus-visible),
+    .close-menu:focus:not(:focus-visible) {
+      outline: none;
+    }
+   
+  
+  }
+
+
+@media (max-width: 881px){ /*MENU CON JS*/
+    .menu {
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: var(--menu-mobile-background-color);
+        height: 75%;
+        overflow-y: auto;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+        
+      }
+    
+      .menu li {
+        padding: 0;
+      }
+    
+      .menu a {
+        color: var(--text-color-inverse);
+        line-height: 60px;
+      }
+    
+      .open-menu,
+      .close-menu {
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+    
+      .close-menu {
+        align-self: flex-end;
+        padding: 20px 15px;
+      }
+    
+      .menu_opened {
+        opacity: 1;
+        pointer-events: all;
+      }
+    
+      .open-menu:focus:not(:focus-visible),
+      .close-menu:focus:not(:focus-visible) {
+        outline: none;
+      }
+      .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+      }
+      
+    }
+/* ============================
+				Mobile Responsiveness
+   ============================*/
+
+
+   @media(max-width: 768px) {
+
+   
+    #calendar li {
+      height: auto !important;
+      border: 1px solid #ededed;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: -1px;
+    }
+  
+    #calendar .date {
+      float: none;
+    }
+    #calendar ul {
+      
+      padding: 0;
+      
+    }
+    #calendar .day-movie1 {
+    background-image: url(/media/hotel.jpg);
+    background-position:  30% 12%;
+  
+  }
+  #calendar .day-movie2 {
+    background-image: url(/media/dune2.webp);
+    background-position: center;
+  
+  }
+  #calendar .day-movie3 {
+    background-image: url(/media/007.jpg);
+    background-position: center;
+  
+  }
+  
+  #calendar .day-movie4 {
+    background-image: url(/media/halloween.jpg);
+    background-position: center;
+  
+  }
+  #calendar .day-movie5 {
+    background-image: url(/media/eternals.jpg);
+    background-position: center;
+  
+  }
+  #calendar .day-movie6 {
+    background-image: url(/media/gb.jpg);
+    background-position: center;
+  
+  }
+  #calendar .day-movie7 {
+    background-image: url(/media/topgun.jpg);
+    background-position: 110% 15%;
+  
+  }
+  #calendar .day-movie8 {
+    background-image: url(/media/encanto.jpg);
+    background-position: 25% 35%;
+  
+  }
+  #calendar .day-movie9 {
+    background-image: url(/media/gucci.jpg);
+    background-position: center;
+  
+  }
+  #calendar .day-movie10 {
+    background-image: url(/media/rew.jpg);
+    background-position: center;
+  
+  }
+  #calendar .day-movie11 {
+    background-image: url(/media/west.jpg);
+    background-position: center;
+  
+  }
+  #calendar .day-movie12 {
+    background-image: url(/media/spider.jpg);
+    background-position: 45% 25%;
+  
+  }
+  #calendar .day-movie13 {
+    background-image: url(/media/matrix.jpg);
+    background-position: 25% 35%;
+  
+  }
+  #calendar .day-movie14 {
+    background-image: url(/media/kingsman.webp);
+    background-position: 35% 15%;
+  
+  }
+  #calendar .day-movie14 {
+    background-image: url(/media/kingsman.webp);
+    background-position: center;
+  
+  }
+  #calendar .day-movie-navidad {
+    background-image: url(/media/mandalorian-poster.jpg);
+    background-position: center;
+  
+  }
+  }
+
+
+
+    
+@media (min-width: 882px){
+  .topnav{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      }
+      .menu{
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+      }
+      /*Calendario*/
+ 
+ 
+  
+   
+      
+   
+      
+
+@media (min-width: 1152px){
+.topnav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .noticia-3{
+    display: block !important;
+    
+  }
+}
+
+.roto{
+  display: none;
+  
+}
+ 
