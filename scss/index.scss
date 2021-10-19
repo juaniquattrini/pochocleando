@@ -1,0 +1,18 @@
+/*IMPORTS */
+@import "./globals";
+
+/*PARTIALS*/
+@import "./partials/navbar";
+@import "./partials/footer";
+
+
+/*PAGES*/
+@import "./pages/main.scss";
+@import "./pages/reviews.scss";
+@import "./pages/entretenimiento.scss";
+@import "./pages/cronograma.scss";
+@import "./pages/contacto.scss";
+@import "./pages/404.scss";
+
+/*MEDIA QUERYS*/
+@import "./mediaq/mediaq.scss"
