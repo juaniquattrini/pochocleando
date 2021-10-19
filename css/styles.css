@@ -771,7 +771,7 @@ fieldset {
   #calendar ul {
     padding: 0; }
   #calendar .day-movie1 {
-    background-image: url("./media/hotel.jpg");
+    background-image: url("../media/hotel.jpg");
     background-position: 30% 12%; }
   #calendar .day-movie2 {
     background-image: url("../media/dune2.webp");
