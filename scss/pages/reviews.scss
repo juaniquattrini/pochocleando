@@ -130,7 +130,12 @@
         }
       }
     }
-   
+    #facebook-link{
+      font-size: 20px;
+      font-weight: 400;
+      font-style: italic;
+    }
+   /*MEDIA QUERY EXCLUSIVO TARJETA DE PRESENTACION*/
     @media (min-width: 882px){
       flex-direction: row;
       max-width: 700px;
