@@ -89,7 +89,7 @@ body {
   input:checked + label .ball {
     background: #222;
   }
-  input {
+  #switch {
     display: none;
   }
   input:checked + label .fa-sun {
@@ -110,7 +110,7 @@ body {
   }
   
   .dark-mode {
-    --bg-color: #01080f;
+    --bg-color: #010102;
     --primary-text-color: #fff;
     --secondary-text-color: #ddd;
   }
