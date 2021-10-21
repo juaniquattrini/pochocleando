@@ -1,10 +1,10 @@
 /*CRONOGRAMA*/
-#calendar {
+#calendario {
 	width: 100%;
 	margin-bottom: 1vw;
 }
 
-#calendar ul {
+#calendario ul {
 	list-style: none;
 	padding-left: 100px;
 	margin: 0;
@@ -12,7 +12,7 @@
   
 }
 
-#calendar li {
+#calendario li {
 	display: block;
 	float: left;
 	width:15.350%;
@@ -24,12 +24,12 @@
   border: solid black;
 }
 
-#calendar ul.weekdays {
+#calendario ul.weekdays {
 	height: 40px;
 	background: #52110dde;
 }
 
-#calendar ul.weekdays li {
+#calendario ul.weekdays li {
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 20px;
@@ -39,101 +39,101 @@
 	font-size: 13px;
 }
 
-#calendar .days li {
+#calendario .days li {
 	height: 200px;
 	
 }
-#calendar .day-movie1 {
+#calendario .day-movie1 {
 	background-image: url("../media/hotel.jpg");
 	background-position:  30% 12%;
 
 }
-#calendar .day-movie2 {
+#calendario .day-movie2 {
 	background-image: url("../media/dune2.webp");
 	background-position: center;
 
 }
-#calendar .day-movie3 {
+#calendario .day-movie3 {
 	background-image: url("../media/007.jpg");
 	background-position: 70% 15%;
 
 }
 
-#calendar .day-movie4 {
+#calendario .day-movie4 {
 	background-image: url("../media/halloween.jpg");
 	background-position: 25% 15%;
 
 }
-#calendar .day-movie5 {
+#calendario .day-movie5 {
 	background-image: url("../media/eternals.jpg");
 	background-position: center;
 
 }
-#calendar .day-movie6 {
+#calendario .day-movie6 {
 	background-image: url("../media/gb.jpg");
 	background-position: 42% 05%;
 
 }
-#calendar .day-movie7 {
+#calendario .day-movie7 {
 	background-image: url("../media/topgun.jpg");
 	background-position: 49% 60%;
 
 }
-#calendar .day-movie8 {
+#calendario .day-movie8 {
 	background-image: url("../media/encanto.jpg");
 	background-position: 49% 40%;
 
 }
-#calendar .day-movie9 {
+#calendario .day-movie9 {
 	background-image: url("../media/gucci.jpg");
 	background-position: 0.1% 35%;
 
 }
-#calendar .day-movie10 {
+#calendario .day-movie10 {
 	background-image: url("../media/rew.jpg");
 	background-position: 23% 35%;
 
 }
-#calendar .day-movie11 {
+#calendario .day-movie11 {
 	background-image: url("../media/west.jpg");
 	background-position: 32% 24%;
 
 }
-#calendar .day-movie12 {
+#calendario .day-movie12 {
 	background-image: url("../media/spider.jpg");
 	background-position: 52% 75%;
 
 }
-#calendar .day-movie13 {
+#calendario .day-movie13 {
 	background-image: url("../media/matrix.jpg");
 	background-position: 50% 35%;
 
 }
-#calendar .day-movie14 {
+#calendario .day-movie14 {
 	background-image: url("../media/kingsman.webp");
 	background-position: center;
 
 }
-#calendar .day-movie14 {
+#calendario .day-movie14 {
 	background-image: url("../media/kingsman.webp");
 	background-position: center;
 
 }
-#calendar .day-movie-navidad {
+#calendario .day-movie-navidad {
 	background-image: url("../media/papanoel.gif");
 	background-position: center;
 
 }
 	
-#calendar .day-none{
-	background-color: var(--calendar-color);
+#calendario .day-none{
+	background-color: var(--calendario-color);
 	 }
 
-#calendar .days li:hover {
-	background: var(--calendar-color);
+#calendario .days li:hover {
+	background: var(--calendario-color);
 }
 
-#calendar .event {
+#calendario .event {
 	clear: both;
 	display: block;
 	font-size: 20px;
@@ -148,7 +148,7 @@
 	
 }
 
-#calendar .event-desc {
+#calendario .event-desc {
 	color: black;
 	font-weight: 400;
 	font-style: italic;

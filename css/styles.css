@@ -36,8 +36,7 @@ h1 {
 h2 {
   color: var(--primary-text-color);
   font-weight: 400;
-  font-style: italic;
-  font-size: 3rem; }
+  font-style: italic; }
 
 h3 {
   color: var(--prim); }
@@ -239,7 +238,7 @@ input:checked + label {
 input:checked + label .ball {
   background: #222; }
 
-input {
+#switch {
   display: none; }
 
 input:checked + label .fa-sun {
@@ -258,7 +257,7 @@ input:checked + label .fa-moon {
   color: var(--secondary-text-color); }
 
 .dark-mode {
-  --bg-color: #01080f;
+  --bg-color: #010102;
   --primary-text-color: #fff;
   --secondary-text-color: #ddd; }
 
@@ -359,7 +358,7 @@ input:checked + label .fa-moon {
   border-left: 2px solid #333333; }
 
 /*Reviews*/
-.blog-card {
+.staff-card {
   display: flex;
   flex-direction: column;
   margin: 1rem auto;
@@ -372,17 +371,13 @@ input:checked + label .fa-moon {
   overflow: hidden;
   z-index: 0;
   /*MEDIA QUERY EXCLUSIVO TARJETA DE PRESENTACION*/ }
-  .blog-card a {
-    color: inherit; }
-    .blog-card a:hover {
-      color: #5ad67d; }
-  .blog-card:hover .photo {
+  .staff-card:hover .foto {
     transform: scale(1.3) rotate(3deg); }
-  .blog-card .meta {
+  .staff-card .meta {
     position: relative;
     z-index: 0;
     height: 200px; }
-  .blog-card .photo {
+  .staff-card .foto {
     position: absolute;
     top: 0;
     right: 0;
@@ -391,12 +386,12 @@ input:checked + label .fa-moon {
     background-size: cover;
     background-position: center;
     transition: transform .2s; }
-  .blog-card .details,
-  .blog-card .details ul {
+  .staff-card .details,
+  .staff-card .details ul {
     margin: auto;
     padding: 0;
     list-style: none; }
-  .blog-card .details {
+  .staff-card .details {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -408,49 +403,49 @@ input:checked + label .fa-moon {
     padding: 10px;
     width: 100%;
     font-size: .9rem; }
-    .blog-card .details a {
+    .staff-card .details a {
       text-decoration: dotted underline; }
-    .blog-card .details ul li {
+    .staff-card .details ul li {
       display: inline-block; }
-    .blog-card .details .author:before {
+    .staff-card .details .author:before {
       font-family: FontAwesome;
       margin-right: 10px;
       content: "\f007"; }
-    .blog-card .details .date:before {
+    .staff-card .details .date:before {
       font-family: FontAwesome;
       margin-right: 10px;
       content: "\f133"; }
-    .blog-card .details .tags ul:before {
+    .staff-card .details .tags ul:before {
       font-family: FontAwesome;
       content: "\f02b";
       margin-right: 10px; }
-    .blog-card .details .tags li {
+    .staff-card .details .tags li {
       margin-right: 2px; }
-      .blog-card .details .tags li:first-child {
+      .staff-card .details .tags li:first-child {
         margin-left: -4px; }
-  .blog-card .description {
+  .staff-card .descripcion {
     padding: 1rem;
     background: var(--bg-color);
     position: relative;
     z-index: 1; }
-    .blog-card .description h1,
-    .blog-card .description h1 {
+    .staff-card .descripcion h1,
+    .staff-card .descripcion h1 {
       line-height: 1;
       margin: 0;
       font-size: 1.7rem; }
-    .blog-card .description h2 {
+    .staff-card .descripcion h2 {
       font-size: 1rem;
       font-weight: 200;
       text-transform: uppercase;
       color: var(--secundary-color);
       margin-top: 5px; }
-  .blog-card p {
+  .staff-card p {
     position: relative;
     margin: 1rem 0 0;
     color: var(--primary-text-color); }
-    .blog-card p:first-of-type {
+    .staff-card p:first-of-type {
       margin-top: 1.25rem; }
-      .blog-card p:first-of-type:before {
+      .staff-card p:first-of-type:before {
         content: "";
         position: absolute;
         height: 5px;
@@ -458,20 +453,20 @@ input:checked + label .fa-moon {
         width: 100px;
         top: -0.75rem;
         border-radius: 3px; }
-  .blog-card #facebook-link {
+  .staff-card #facebook-link {
     font-size: 20px;
     font-weight: 400;
     font-style: italic; }
   @media (min-width: 882px) {
-    .blog-card {
+    .staff-card {
       flex-direction: row;
       max-width: 700px; }
-      .blog-card .meta {
+      .staff-card .meta {
         flex-basis: 40%;
         height: auto; }
-      .blog-card .description {
+      .staff-card .descripcion {
         flex-basis: 60%; }
-        .blog-card .description:before {
+        .staff-card .descripcion:before {
           transform: skewX(-3deg);
           content: "";
           background: var(--bg-color);
@@ -481,13 +476,13 @@ input:checked + label .fa-moon {
           top: 0;
           bottom: 0;
           z-index: -1; }
-      .blog-card.alt {
+      .staff-card.alt {
         flex-direction: row-reverse; }
-        .blog-card.alt .description:before {
+        .staff-card.alt .descripcion:before {
           left: inherit;
           right: -10px;
           transform: skew(3deg); }
-        .blog-card.alt .details {
+        .staff-card.alt .details {
           padding-left: 25px; } }
 
 /*Entretenimiento*/
@@ -498,17 +493,17 @@ input:checked + label .fa-moon {
   color: var(--primary-text-color); }
 
 /*CRONOGRAMA*/
-#calendar {
+#calendario {
   width: 100%;
   margin-bottom: 1vw; }
 
-#calendar ul {
+#calendario ul {
   list-style: none;
   padding-left: 100px;
   margin: 0;
   width: 100%; }
 
-#calendar li {
+#calendario li {
   display: block;
   float: left;
   width: 15.350%;
@@ -519,11 +514,11 @@ input:checked + label .fa-moon {
   margin-bottom: -1px;
   border: solid black; }
 
-#calendar ul.weekdays {
+#calendario ul.weekdays {
   height: 40px;
   background: #52110dde; }
 
-#calendar ul.weekdays li {
+#calendario ul.weekdays li {
   text-align: center;
   text-transform: uppercase;
   line-height: 20px;
@@ -532,80 +527,80 @@ input:checked + label .fa-moon {
   color: var(--bg-color);
   font-size: 13px; }
 
-#calendar .days li {
+#calendario .days li {
   height: 200px; }
 
-#calendar .day-movie1 {
+#calendario .day-movie1 {
   background-image: url("../media/hotel.jpg");
   background-position: 30% 12%; }
 
-#calendar .day-movie2 {
+#calendario .day-movie2 {
   background-image: url("../media/dune2.webp");
   background-position: center; }
 
-#calendar .day-movie3 {
+#calendario .day-movie3 {
   background-image: url("../media/007.jpg");
   background-position: 70% 15%; }
 
-#calendar .day-movie4 {
+#calendario .day-movie4 {
   background-image: url("../media/halloween.jpg");
   background-position: 25% 15%; }
 
-#calendar .day-movie5 {
+#calendario .day-movie5 {
   background-image: url("../media/eternals.jpg");
   background-position: center; }
 
-#calendar .day-movie6 {
+#calendario .day-movie6 {
   background-image: url("../media/gb.jpg");
   background-position: 42% 05%; }
 
-#calendar .day-movie7 {
+#calendario .day-movie7 {
   background-image: url("../media/topgun.jpg");
   background-position: 49% 60%; }
 
-#calendar .day-movie8 {
+#calendario .day-movie8 {
   background-image: url("../media/encanto.jpg");
   background-position: 49% 40%; }
 
-#calendar .day-movie9 {
+#calendario .day-movie9 {
   background-image: url("../media/gucci.jpg");
   background-position: 0.1% 35%; }
 
-#calendar .day-movie10 {
+#calendario .day-movie10 {
   background-image: url("../media/rew.jpg");
   background-position: 23% 35%; }
 
-#calendar .day-movie11 {
+#calendario .day-movie11 {
   background-image: url("../media/west.jpg");
   background-position: 32% 24%; }
 
-#calendar .day-movie12 {
+#calendario .day-movie12 {
   background-image: url("../media/spider.jpg");
   background-position: 52% 75%; }
 
-#calendar .day-movie13 {
+#calendario .day-movie13 {
   background-image: url("../media/matrix.jpg");
   background-position: 50% 35%; }
 
-#calendar .day-movie14 {
+#calendario .day-movie14 {
   background-image: url("../media/kingsman.webp");
   background-position: center; }
 
-#calendar .day-movie14 {
+#calendario .day-movie14 {
   background-image: url("../media/kingsman.webp");
   background-position: center; }
 
-#calendar .day-movie-navidad {
+#calendario .day-movie-navidad {
   background-image: url("../media/papanoel.gif");
   background-position: center; }
 
-#calendar .day-none {
-  background-color: var(--calendar-color); }
+#calendario .day-none {
+  background-color: var(--calendario-color); }
 
-#calendar .days li:hover {
-  background: var(--calendar-color); }
+#calendario .days li:hover {
+  background: var(--calendario-color); }
 
-#calendar .event {
+#calendario .event {
   clear: both;
   display: block;
   font-size: 20px;
@@ -618,7 +613,7 @@ input:checked + label .fa-moon {
   color: #3f1818;
   text-decoration: none; }
 
-#calendar .event-desc {
+#calendario .event-desc {
   color: black;
   font-weight: 400;
   font-style: italic;
@@ -722,7 +717,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #000000;
+  background: #0f0f42;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
@@ -741,7 +736,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #000000;
+  background: var(--primary-color);
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
@@ -901,59 +896,59 @@ fieldset {
     z-index: 10; } }
 
 @media (max-width: 768px) {
-  #calendar li {
+  #calendario li {
     height: auto !important;
     border: 1px solid #ededed;
     width: 100%;
     padding: 10px;
     margin-bottom: -1px; }
-  #calendar .date {
+  #calendario .date {
     float: none; }
-  #calendar ul {
+  #calendario ul {
     padding: 0; }
-  #calendar .day-movie1 {
+  #calendario .day-movie1 {
     background-image: url("../media/hotel.jpg");
     background-position: 30% 12%; }
-  #calendar .day-movie2 {
+  #calendario .day-movie2 {
     background-image: url("../media/dune2.webp");
     background-position: center; }
-  #calendar .day-movie3 {
+  #calendario .day-movie3 {
     background-image: url("../media/007.jpg");
     background-position: center; }
-  #calendar .day-movie4 {
+  #calendario .day-movie4 {
     background-image: url("../media/halloween.jpg");
     background-position: center; }
-  #calendar .day-movie5 {
+  #calendario .day-movie5 {
     background-image: url("../media/eternals.jpg");
     background-position: center; }
-  #calendar .day-movie6 {
+  #calendario .day-movie6 {
     background-image: url("../media/gb.jpg");
     background-position: center; }
-  #calendar .day-movie7 {
+  #calendario .day-movie7 {
     background-image: url("../media/topgun.jpg");
     background-position: 110% 15%; }
-  #calendar .day-movie8 {
+  #calendario .day-movie8 {
     background-image: url("../media/encanto.jpg");
     background-position: 25% 35%; }
-  #calendar .day-movie9 {
+  #calendario .day-movie9 {
     background-image: url("../media/gucci.jpg");
     background-position: center; }
-  #calendar .day-movie10 {
+  #calendario .day-movie10 {
     background-image: url("../media/rew.jpg");
     background-position: center; }
-  #calendar .day-movie11 {
+  #calendario .day-movie11 {
     background-image: url("../media/west.jpg");
     background-position: center; }
-  #calendar .day-movie12 {
+  #calendario .day-movie12 {
     background-image: url("../media/spider.jpg");
     background-position: 45% 25%; }
-  #calendar .day-movie13 {
+  #calendario .day-movie13 {
     background-image: url("../media/matrix.jpg");
     background-position: 25% 35%; }
-  #calendar .day-movie14 {
+  #calendario .day-movie14 {
     background-image: url("../media/kingsman.webp");
     background-position: 35% 15%; }
-  #calendar .day-movie-navidad {
+  #calendario .day-movie-navidad {
     background-image: url("../media/papanoel.gif");
     background-position: center; } }
 
