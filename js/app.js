@@ -8,3 +8,10 @@ function toggleMenu() {
 
 openMenuBtn.addEventListener("click", toggleMenu);
 closeMenuBtn.addEventListener("click", toggleMenu);
+
+
+const switchTheme = document.querySelector("#switch");
+
+switchTheme.addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode");
+});

@@ -1,5 +1,6 @@
+/*Footer*/
 footer{
-background: var(--secundary-color);
+background: var(--bg-color);
     padding: 10px 0px;
     border-top: 1px solid #e3e3e3;
     margin-top: 2vw;
@@ -21,7 +22,7 @@ background: var(--secundary-color);
 }
 
   footer a {
-    color: black;
+    color: var(--primary-text-color);
     font-size: 20px;
     padding: 10px;
     border-right: 1px solid black;
@@ -39,5 +40,7 @@ background: var(--secundary-color);
   position: fixed;
   right: 0;
   bottom: 0;
+  background-color: var(--bg-color);
+  color: var(--primary-text-color);
 
 }

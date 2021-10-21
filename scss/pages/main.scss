@@ -1,3 +1,4 @@
+/*INDEX*/
 .cards * {
   box-sizing: border-box;
   
@@ -10,6 +11,7 @@
     grid-auto-rows: auto;
     gap: 20px;
     padding-top: 30px;
+    background-color: var(--bg-color);
 }
 
 .card__image {
@@ -32,6 +34,8 @@
     background: #fafafa;
     border-right: 2px solid #333333;
     border-left: 2px solid #333333;
+    background-color: var(--bg-color);
+    color: var(--primary-text-color);
 }
 
 .card__content > p:first-of-type {
@@ -48,10 +52,11 @@
     justify-content: space-between;
     align-items: center;
     color: #555555;
-    background: #eeeeee;
+    background: var(--bg-color);
     border-bottom: 2px solid #333333;
     border-right: 2px solid #333333;
     border-left: 2px solid #333333;
+  
 }
 
 
@@ -67,6 +72,7 @@
     border-top: 2px solid #333333;
     border-right: 2px solid #333333;
     border-left: 2px solid #333333;
+    background: var(--bg-color);
   
   }
   
@@ -78,6 +84,8 @@
     background: #fafafa;
     border-right: 2px solid #333333;
     border-left: 2px solid #333333;
+    background: var(--bg-color);
+    color: var(--primary-text-color);
   }
   
   .noticia-3__content > p:first-of-type {
@@ -94,11 +102,131 @@
     justify-content: space-between;
     align-items: center;
     color: #555555;
-    background: #eeeeee;
+    background: var(--bg-color);
     border-bottom: 2px solid #333333;
     border-right: 2px solid #333333;
     border-left: 2px solid #333333;
+    
 }
+
+/*DARK MODE*/
+
+body {
+  background: var(--bg-color);
+}
+
+input:checked  + label {
+  color: blue;
+}
+
+label {
+  display: flex;
+  width: 75px;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6px;
+  background: #222;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+}
+
+
+label i {
+  font-size: 18px;
+}
+label .fa-sun {
+  color: gold;
+  transition: 0.8s;
+}
+label .fa-moon {
+  color: #fff;
+  transition: 0.8s;
+}
+label .ball {
+  display: none;
+}
+
+input:checked + label .fa-sun {
+  transform: translateX(43px);
+}
+input:checked + label .fa-moon {
+  transform: translateX(-43px);
+}
+
+label .fa-sun {
+  opacity: 1;
+}
+input:checked + label .fa-sun {
+  opacity: 0;
+}
+label .fa-moon {
+  opacity: 0;
+}
+input:checked + label .fa-moon {
+  opacity: 1;
+}
+
+label .ball {
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 25px;
+  top: 5px;
+  left: 5px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.8s;
+}
+
+input:checked + label .ball {
+  transform: translateX(40px);
+}
+
+label .fa-sun {
+  transform: translateX(43px);
+}
+input:checked + label .fa-sun {
+  transform: translateX(0);
+}
+
+label {
+  transition: 0.3s;
+}
+input:checked + label {
+  background: #c0c0c0;
+}
+input:checked + label .ball {
+  background: #222;
+}
+input {
+  display: none;
+}
+input:checked + label .fa-sun {
+  transform: translateX(43px) rotate(160deg);
+}
+label .fa-moon {
+  transform: translateX(-43px) rotate(250deg);
+}
+input:checked + label .fa-moon {
+  transform: translateX(0), rotate(0);
+}
+
+.content {
+  color: var(--primary-text-color);
+}
+.content p {
+  color: var(--secondary-text-color);
+}
+
+.dark-mode {
+  --bg-color: #01080f;
+  --primary-text-color: #fff;
+  --secondary-text-color: #ddd;
+}
+
+
 
 
  

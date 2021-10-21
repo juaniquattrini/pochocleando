@@ -1,4 +1,4 @@
-
+/*Reviews*/
   $color_white: #fff;
   $color_prime: #5ad67d;
   $color_grey: #e2e2e2;
@@ -8,9 +8,9 @@
     display: flex;
     flex-direction: column;
     margin: 1rem auto;
-    box-shadow: 0 3px 7px -1px rgba(#000, .1);
+    box-shadow: 0 3px 7px -1px rgba(red, .2);
     margin-bottom: 1.6%;
-    background: white;
+    background: var(--bg-color);
     line-height: 1.4;
     font-family: sans-serif;
     border-radius: 5px;
@@ -57,7 +57,7 @@
       margin: auto;
       transition: left .2s;
       background: rgba(#000, .6);
-      color: white;
+      color: var(--primary-text-color);
       padding: 10px;
       width: 100%;
       font-size: .9rem;
@@ -95,7 +95,7 @@
     }
     .description {
       padding: 1rem;
-      background: white;
+      background: var(--bg-color);
       position: relative;
       z-index: 1;
       h1,
@@ -117,13 +117,14 @@
     p {
       position: relative;
       margin: 1rem 0 0;
+      color: var(--primary-text-color);
       &:first-of-type {
         margin-top: 1.25rem;
         &:before {
           content: "";
           position: absolute;
           height: 5px;
-          background: darkblue;
+          background: var(--bg-color);
           width: 100px;
           top: -0.75rem;
           border-radius: 3px;
@@ -135,6 +136,11 @@
       font-weight: 400;
       font-style: italic;
     }
+
+
+
+
+    
    /*MEDIA QUERY EXCLUSIVO TARJETA DE PRESENTACION*/
     @media (min-width: 882px){
       flex-direction: row;
@@ -148,7 +154,7 @@
         &:before {
           transform: skewX(-3deg);
           content: "";
-          background: #fff;
+          background: var(--bg-color);
           width: 30px;
           position: absolute;
           left: -10px;

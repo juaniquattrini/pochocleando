@@ -1,15 +1,20 @@
+/*Navbar*/
 .topheader {
-    box-shadow: 0 4px 5px var(--navbar-shallow-color);
-    background-color: var(--theme-color);
+    box-shadow: 0 4px 5px var(--bg-color);
+    background-color: var(--bg-color);
     width: 100%;
   }
   
   .topnav {
     display: flex;
-    justify-content: space-between;
+    
     padding: 10px;
     max-width: 980px;
     margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
   }
   
   /* Logo */
@@ -42,7 +47,7 @@
   }
   
   .menu a {
-    color: var(--text-color);
+    color: var(--primary-text-color);
     font-size: 18px;
     font-weight: 500;
     line-height: 50px;

@@ -1,3 +1,4 @@
+/*CRONOGRAMA*/
 #calendar {
 	width: 100%;
 	margin-bottom: 1vw;
@@ -25,7 +26,7 @@
 
 #calendar ul.weekdays {
 	height: 40px;
-	background: #8e352e;
+	background: #52110dde;
 }
 
 #calendar ul.weekdays li {
@@ -34,7 +35,7 @@
 	line-height: 20px;
 	border: none !important;
 	padding: 10px 6px;
-	color: #fff;
+	color: var(--bg-color);
 	font-size: 13px;
 }
 
@@ -129,7 +130,7 @@
 	 }
 
 #calendar .days li:hover {
-	background: var(--secundary-color);
+	background: var(--calendar-color);
 }
 
 #calendar .event {
@@ -142,7 +143,7 @@
 	margin-bottom: 5px;
 	background: #e4f2f2;
 	border: 1px solid #b5dbdc;
-	color: red;
+	color: rgb(63, 24, 24);
 	text-decoration: none;
 	
 }
