@@ -552,7 +552,7 @@ input:checked + label .fa-moon {
   background-position: 42% 05%; }
 
 #calendario .day-movie7 {
-  background-image: url("../media/topgun.webp");
+  background-image: url("../media/top-gun.webp");
   background-position: 49% 60%; }
 
 #calendario .day-movie8 {
@@ -918,7 +918,7 @@ fieldset {
     background-image: url("../media/gb.webp");
     background-position: center; }
   #calendario .day-movie7 {
-    background-image: url("../media/topgun.webp");
+    background-image: url("../media/top-gun.webp");
     background-position: 110% 15%; }
   #calendario .day-movie8 {
     background-image: url("../media/encanto.webp");
