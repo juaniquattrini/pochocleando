@@ -1,17 +1,14 @@
 /*IMPORTS */
-/*Globals*/
 :root {
   --primary-color: #821331;
   --secundary-color: #67142A;
   --text-color-inverse: white;
   --text-color: black;
   --navbar-shallow-color: #67142A;
-  --menu-mobile-background-color: #2F1313 ;
-  /*DARK MODE*/
+  --menu-mobile-background-color: #2F1313;
   --bg-color: #F2CAD5;
   --primary-text-color: #222;
   --secondary-text-color: #444;
-  /*Cronograma*/
   --calendar-color: #f7f7f756; }
 
 html {
@@ -257,7 +254,7 @@ input:checked + label .fa-moon {
   color: var(--secondary-text-color); }
 
 .dark-mode {
-  --bg-color: #010102;
+  --bg-color: #36101a;
   --primary-text-color: #fff;
   --secondary-text-color: #ddd; }
 
@@ -531,7 +528,7 @@ input:checked + label .fa-moon {
   height: 200px; }
 
 #calendario .day-movie1 {
-  background-image: url("../media/hotel.jpg");
+  background-image: url("../media/hotel.webp");
   background-position: 30% 12%; }
 
 #calendario .day-movie2 {
@@ -539,59 +536,55 @@ input:checked + label .fa-moon {
   background-position: center; }
 
 #calendario .day-movie3 {
-  background-image: url("../media/007.jpg");
+  background-image: url("../media/007.webp");
   background-position: 70% 15%; }
 
 #calendario .day-movie4 {
-  background-image: url("../media/halloween.jpg");
+  background-image: url("../media/halloween.webp");
   background-position: 25% 15%; }
 
 #calendario .day-movie5 {
-  background-image: url("../media/eternals.jpg");
+  background-image: url("../media/eternals.webp");
   background-position: center; }
 
 #calendario .day-movie6 {
-  background-image: url("../media/gb.jpg");
+  background-image: url("../media/gb.webp");
   background-position: 42% 05%; }
 
 #calendario .day-movie7 {
-  background-image: url("../media/topgun.jpg");
+  background-image: url("../media/topgun.webp");
   background-position: 49% 60%; }
 
 #calendario .day-movie8 {
-  background-image: url("../media/encanto.jpg");
+  background-image: url("../media/encanto.webp");
   background-position: 49% 40%; }
 
 #calendario .day-movie9 {
-  background-image: url("../media/gucci.jpg");
+  background-image: url("../media/gucci.webp");
   background-position: 0.1% 35%; }
 
 #calendario .day-movie10 {
-  background-image: url("../media/rew.jpg");
+  background-image: url("../media/rew.webp");
   background-position: 23% 35%; }
 
 #calendario .day-movie11 {
-  background-image: url("../media/west.jpg");
+  background-image: url("../media/west.webp");
   background-position: 32% 24%; }
 
 #calendario .day-movie12 {
-  background-image: url("../media/spider.jpg");
+  background-image: url("../media/spider.webp");
   background-position: 52% 75%; }
 
 #calendario .day-movie13 {
-  background-image: url("../media/matrix.jpg");
+  background-image: url("../media/matrix.webp");
   background-position: 50% 35%; }
 
 #calendario .day-movie14 {
   background-image: url("../media/kingsman.webp");
   background-position: center; }
 
-#calendario .day-movie14 {
-  background-image: url("../media/kingsman.webp");
-  background-position: center; }
-
 #calendario .day-movie-navidad {
-  background-image: url("../media/papanoel.gif");
+  background-image: url("../media/papanoel.webp");
   background-position: center; }
 
 #calendario .day-none {
